@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Finish">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/finish_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:theme="@style/ToolBarTheme"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end"
+        android:textColor="@color/colorAccent"
+        android:textSize="35sp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"/>
+
+    <FrameLayout
+        android:id="@+id/fl_finish"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circular">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/check"
+            android:layout_gravity="center"
+            android:contentDescription="@string/tick"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/you_ve_completed_the_exercises"/>
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textSize="18sp"
+        android:text="@string/finish"/>
+
+</LinearLayout>

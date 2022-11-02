@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">7MinWorkOut App</string>
+    <string name="start">START</string>
+    <string name="title">title</string>
+    <string name="get_ready_for">GET READY FOR</string>
+    <string name="ten">10</string>
+    <string name="upcoming_exercise">Upcoming Exercise:</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="_30">30</string>
+    <string name="bmi">BMI</string>
+    <string name="calculator">Calculator</string>
+    <string name="history">History</string>
+    <string name="metric_units">METRIC UNITS</string>
+    <string name="us_units">US UNITS</string>
+    <string name="weight_in_kg">WEIGHT (in kg)</string>
+    <string name="height_in_cm">height (in cm)</string>
+    <string name="feet">Feet</string>
+    <string name="inch">Inch</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="calculate">Calculate</string>
+    <string name="all_exercises_completed">ALL EXERCISES COMPLETED</string>
+    <string name="no_data_available">NO DATA AVAILABLE</string>
+    <string name="date">date</string>
+    <string name="_1">1</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="this_will_stop_your_workout_you_ve_come_this_far_are_you_sure_you_want_to_quit">This will stop your workout. You\'ve come this far are you sure you want to quit?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="end">END</string>
+    <string name="tick">tick</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="you_ve_completed_the_exercises">You\'ve completed the exercises</string>
+    <string name="finish">finish</string>
+</resources>
